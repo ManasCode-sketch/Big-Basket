@@ -76,21 +76,3 @@ My main objectives for this analysis were:
 This analysis paints a picture of BigBasket's product landscape where categories vary vastly in size, revenue contribution, and customer perception. 'Beauty & Hygiene' is clearly a powerhouse. However, the disconnect between sales performance and customer ratings is notable. High revenue in 'Kitchen, Garden & Pets' despite lower ratings might suggest necessity drives purchases, but there could be room to improve product quality or manage expectations. The high ratings but low sales in 'Fruits & Vegetables' could indicate a niche, high-quality segment or perhaps an area where sales volume could be increased if desired.
 
 Overall, the data suggests that maximizing revenue doesn't solely depend on having the most products or even the highest-rated ones; a mix of factors including price point, demand, and product variety within the category plays a crucial role.
-
-## How to Run 🚀
-
-1.  Clone this repository.
-2.  Ensure you have Python installed.
-3.  Install the required libraries:
-    ```bash
-    pip install pandas numpy matplotlib seaborn plotly
-    ```
-4.  Open and run the Jupyter Notebook (`Big_Basket1.ipynb` or your notebook name) in an environment like Jupyter Lab, VS Code, or Google Colab.
-5.  Make sure the `BigBasket Products.csv` file is accessible to the notebook (e.g., in the same directory or provide the correct path).
-
-## Potential Future Work 🔮
-
-*   Deeper dive into `sub_category` and `brand` level analysis.
-*   Analyze the relationship between `sale_price` and `market_price` (discount analysis).
-*   Natural Language Processing (NLP) on the `description` column to extract features or sentiment.
-*   If transaction data were available, analyze purchase frequency, basket size, etc.
